@@ -23,7 +23,7 @@ const TArray<FString> USED_UEM_Move::GetStringArguments(FInstancedStruct SystemA
 const FString USED_UEM_Move::GetEncodedArguments(FInstancedStruct SystemArgumentsStruct)
 {
 	const FM_UEE_Move_Execute Move_Execute = SystemArgumentsStruct.Get<FM_UEE_Move_Execute>();
-	return UFL_UEM_Encode::EncodeNumber(Move_Execute.TargetPosition.x) + UFL_UEM_Encode::EncodeNumber(Move_Execute.TargetPosition.y);
+	return UFL_UEM_Encode::EncodeNumber(Move_Execute.TargetPosition.x,true) + UFL_UEM_Encode::EncodeNumber(Move_Execute.TargetPosition.y,false);
 }
 
 

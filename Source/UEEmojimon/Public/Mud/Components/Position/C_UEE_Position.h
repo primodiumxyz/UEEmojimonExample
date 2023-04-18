@@ -3,33 +3,21 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/BaseComponents/Coord/C_UEM_Coord.h"
 #include "Core/Component/CF_Component.h"
 #include "UObject/Object.h"
 #include "C_UEE_Position.generated.h"
 
 
 USTRUCT(BlueprintType)
-struct UEEMOJIMON_API FC_UEE_Position : public FCF_Component
+struct UEEMOJIMON_API FC_UEE_Position : public FC_UEM_Coord
 {
+	FC_UEE_Position() = default;
+
+	FC_UEE_Position(const int32 _x, const int32 _y)
+		: FC_UEM_Coord(_x, _y)
+	{
+	}
+
 	GENERATED_BODY()
-public:
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	int32 x = 0;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	int32 y = 0;
-
-	FC_UEE_Position()
-	{
-		x = 0;
-		y = 0;
-	}
-
-	FC_UEE_Position(int32 _x, int32 _y)
-	{
-		x = _x;
-		y = _y;
-	}
-	
 };

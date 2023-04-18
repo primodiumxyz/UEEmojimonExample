@@ -22,5 +22,5 @@ const TArray<FString> USED_UEM_JoinGame::GetStringArguments(FInstancedStruct Sys
 const FString USED_UEM_JoinGame::GetEncodedArguments(FInstancedStruct SystemArgumentsStruct)
 {
 	const FM_UEE_JoinGame_Execute JoinGame = SystemArgumentsStruct.Get<FM_UEE_JoinGame_Execute>();
-	return UFL_UEM_Encode::EncodeNumber(JoinGame.StartPosition.x) + UFL_UEM_Encode::EncodeNumber(JoinGame.StartPosition.y);
+	return UFL_UEM_Encode::EncodeNumber(JoinGame.StartPosition.x) + UFL_UEM_Encode::EncodeNumber(JoinGame.StartPosition.y, false);
 }
