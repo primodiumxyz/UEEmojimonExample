@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{FB688F48-48C7-FA89-9301-11A58CC2C0C3}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UEEmojimon",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "UEMUD",
+			"Enabled": true
+		},
+		{
+			"Name": "ContextFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "StructUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "TurboLink",
+			"Enabled": true
+		},
+		{
+			"Name": "web3Unreal",
+			"Enabled": true
+		}
+	]
+}
