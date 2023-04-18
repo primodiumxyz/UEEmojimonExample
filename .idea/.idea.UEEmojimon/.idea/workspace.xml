@@ -74,11 +74,16 @@
     <projectFile>Intermediate/ProjectFiles/ZenDashboard.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22222b4d-95d7-427a-abdb-1be0ef3055d4" name="Changes" comment="" />
+    <list default="true" id="22222b4d-95d7-427a-abdb-1be0ef3055d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Source/UEEmojimon/UEEmojimon.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UEEmojimon/UEEmojimon.Build.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Oass8ZpfPHMLxScS0WqNcxwF1Y" />
   <component name="ProjectViewState">
@@ -26097,6 +26102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681810230530</updated>
       <workItem from="1681810231635" duration="1263000" />
+      <workItem from="1681813523412" duration="312000" />
     </task>
     <servers />
   </component>
