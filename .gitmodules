@@ -1,0 +1,3 @@
+[submodule "Plugins/ContextFramework"]
+	path = Plugins/ContextFramework
+	url = https://github.com/a-najafi/ContextFramework.git
