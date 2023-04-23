@@ -4,3 +4,6 @@
 [submodule "Plugins/UEMUD"]
 	path = Plugins/UEMUD
 	url = https://github.com/a-najafi/UEMUD.git
+[submodule "Plugins/turbolink-uemud"]
+	path = Plugins/turbolink-uemud
+	url = https://github.com/a-najafi/turbolink-uemud.git
