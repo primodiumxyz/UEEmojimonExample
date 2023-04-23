@@ -4,7 +4,6 @@ DerivedDataCache
 Intermediate
 Packages
 Saved
-Plugins/TurboLink/ThirdParty/**
 .vscode
 .vs
 *.VC.db
