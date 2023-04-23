@@ -1,3 +1,6 @@
 [submodule "Plugins/ContextFramework"]
 	path = Plugins/ContextFramework
 	url = https://github.com/a-najafi/ContextFramework.git
+[submodule "Plugins/UEMUD"]
+	path = Plugins/UEMUD
+	url = https://github.com/a-najafi/UEMUD.git
