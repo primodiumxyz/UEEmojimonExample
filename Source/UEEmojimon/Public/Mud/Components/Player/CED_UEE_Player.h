@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/BaseComponents/Bool/CED_UEM_Bool.h"
+#include "Contract/Components/BaseComponents/Bool/CED_UEM_Bool.h"
 #include "UObject/Object.h"
 #include "CED_UEE_Player.generated.h"
 

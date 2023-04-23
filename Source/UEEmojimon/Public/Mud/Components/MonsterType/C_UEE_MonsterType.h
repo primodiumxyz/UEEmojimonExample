@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/BaseComponents/UInt32/C_UEM_UInt32.h"
+#include "Contract/Components/BaseComponents/UInt32/C_UEM_UInt32.h"
 #include "UObject/Object.h"
 #include "C_UEE_MonsterType.generated.h"
 

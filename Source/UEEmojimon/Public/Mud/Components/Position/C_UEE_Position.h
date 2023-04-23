@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/BaseComponents/Coord/C_UEM_Coord.h"
+#include "Contract/Components/BaseComponents/Coord/C_UEM_Coord.h"
 #include "Core/Component/CF_Component.h"
 #include "UObject/Object.h"
 #include "C_UEE_Position.generated.h"

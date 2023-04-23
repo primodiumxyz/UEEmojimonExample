@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/CED_UEM_ComponentBase.h"
-#include "Components/BaseComponents/Coord/CED_UEM_Coord.h"
+#include "Contract/Components/CED_UEM_ComponentBase.h"
+#include "Contract/Components/BaseComponents/Coord/CED_UEM_Coord.h"
 #include "UObject/Object.h"
 #include "CED_UEE_Position.generated.h"
 

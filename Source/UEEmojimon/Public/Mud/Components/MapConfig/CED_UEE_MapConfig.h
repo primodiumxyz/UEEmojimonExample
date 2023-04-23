@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/CED_UEM_ComponentBase.h"
+#include "Contract/Components/CED_UEM_ComponentBase.h"
 #include "UObject/Object.h"
 #include "CED_UEE_MapConfig.generated.h"
 

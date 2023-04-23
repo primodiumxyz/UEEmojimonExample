@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/BaseComponents/Bool/C_UEM_Bool.h"
-#include "Components/BaseComponents/UInt256/C_UEM_Uint256.h"
+#include "Contract/Components/BaseComponents/Bool/C_UEM_Bool.h"
+#include "Contract/Components/BaseComponents/UInt256/C_UEM_Uint256.h"
 #include "UObject/Object.h"
 #include "C_UEE_EncounterTrigger.generated.h"
 

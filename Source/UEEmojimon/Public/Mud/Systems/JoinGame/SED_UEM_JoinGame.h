@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Systems/SED_UEM_Base.h"
+#include "Contract/Systems/SED_UEM_Base.h"
 #include "UObject/Object.h"
 #include "SED_UEM_JoinGame.generated.h"
 

@@ -3,9 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/CED_UEM_ComponentBase.h"
-#include "Components/BaseComponents/Bool/CED_UEM_Bool.h"
-#include "Components/BaseComponents/UInt256/CED_UEM_Uint256.h"
+#include "Contract/Components/CED_UEM_ComponentBase.h"
+#include "Contract/Components/BaseComponents/Bool/CED_UEM_Bool.h"
+#include "Contract/Components/BaseComponents/UInt256/CED_UEM_Uint256.h"
 #include "UObject/Object.h"
 #include "CED_UEE_EncounterTrigger.generated.h"
 
